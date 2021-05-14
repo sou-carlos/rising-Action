@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', serif;
+}
+
+.header{
+    background: rgb(10, 10, 10);
+    padding: 1.5rem 1.5rem;    
+
+}
+.header__logo{
+    width: 50px;
+    border-radius: 50%;    
+}
+
+.menu{
+    display: inline-block;
+    text-transform: uppercase;
+    float: right;
+    padding-top: 1rem;
+    
+}
+
+.menu__item{
+    display: inline-block;
+    padding-right: 2rem;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', serif;
+    
+}
+
+.menu__link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu__link:hover{
+    color: rgb(88, 138, 231);
+}
+
+
+/*Responsivo do header*/
+

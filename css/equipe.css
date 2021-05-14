@@ -1,0 +1,55 @@
+.equipe{
+    background: rgb(72, 126, 226);
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.equipe__title{
+    font-size: 3rem;
+    font-family: 'Montserrat', serif;
+    padding: 2rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.equipe__box{
+    display: inline-block;
+    padding: 2rem;
+    margin: 0 1rem ;
+    background: rgb(136, 175, 246);
+    border-radius: 10px;
+}
+
+.equipe__imagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;   
+    object-position: top; 
+}
+
+.equipe__name{
+    padding-top: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+.equipe__descricao{
+    padding-top: 1rem;
+}
+
+
+/*Equipe responsivo*/
+
+@media only screen and (max-width: 900px) {
+  
+    .equipe__box{
+        text-align: center;
+        width: 40%;
+        margin-bottom: 3rem;
+        background: rgb(136, 175, 246);
+        border-radius: 10px;
+    }
+    
+  }

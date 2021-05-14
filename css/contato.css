@@ -1,0 +1,42 @@
+.contato{
+    height: 400px;
+    text-align: center;
+}
+
+.contato__title{
+    font-size: 3rem;
+    font-family: 'Montserrat', serif;
+    padding: 2rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contato__subtitle{
+    padding-bottom: 3rem;
+}
+
+.contato__subtitle a{
+    text-decoration: none;
+    color:rgb(20, 89, 218);
+}
+
+.formulario{
+    display: inline-block;
+    text-align: center;
+}
+
+.formulario__mensagem{
+    color:rgb(80, 80, 80);
+    vertical-align: top;
+}
+
+.formulario__button{
+    background: rgb(72, 126, 226);
+    color: white;
+    border:none;
+    padding:1rem 3rem;
+    display: block;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    
+}
