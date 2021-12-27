@@ -1,5 +1,4 @@
 .contato{
-    height: 400px;
     text-align: center;
 }
 
@@ -21,13 +20,49 @@
 }
 
 .formulario{
-    display: inline-block;
-    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.conjuto-label-input{
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.conjuto-label-input label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+
+
+.formulario__campo{
+    display: block;
+    padding: 2rem;
+    text-align: left;
+    margin: auto;
+}
+
+.campo__input{
+    display: block;
+    width: 70%;
+    margin: 0px;
+    
+    
+}
+
+.input{
+    width: 100%;
+    padding:1rem;
 }
 
 .formulario__mensagem{
-    color:rgb(80, 80, 80);
-    vertical-align: top;
+    width: 100%;
+    padding: 1rem;
 }
 
 .formulario__button{
@@ -35,8 +70,22 @@
     color: white;
     border:none;
     padding:1rem 3rem;
-    display: block;
+    display: inline-block;
     font-size: 1.5rem;
     border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
     
+}
+
+@media screen and (max-width:480px){
+
+    .input{
+        width: 90%;
+    }
+    
+    .formulario__mensagem{
+        width: 80%;
+        padding: 2rem;
+    }
 }

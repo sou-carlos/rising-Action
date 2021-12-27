@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/equipe.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/responsivo.css">
 
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -70,33 +69,41 @@
             <img class="equipe__imagem" src="img/Dio.png" alt="">
             <p class="equipe__name"> Rulian de Jesus</p>
             <p class="equipe__descricao">Sonoplasta</p>
+            
         </div>
     </section>
 
-    <section class="contato" id="contato">
+    <section class="contato" id="contato" s>
         <h2 class="contato__title">Contato</h2>
         <p class="contato__subtitle">Conheça nossa página na gamejolt clicando
             <a target="_blank" href="https://gamejolt.com/@RisingActionStudios"> aqui</a>
         </p>
 
-        <form action="" class="formulario">
+        <form class="formulario">
+            <div class="conjuto-label-input">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required class="input"> 
+            </div>
 
-            <label for="name">Nome:</label>
-            <input type="text" id="name" required>
+            <div class="conjuto-label-input">
+                <label for="numero">Telefone:</label>
+                <input type="tel" id="numero" required class="input">
+            </div>
 
-            <label for="numero">Telefone</label>
-            <input type="tel" id="numero" required>
-
-            <label for="text">Mensagem</label>
-            <textarea id="text" cols="30" rows="10" required class="formulario__mensagem"></textarea>
+            <div class="conjuto-label-input">
+                <label for="text">Mensagem</label>
+                <textarea id="text"  rows="10" required class="formulario__mensagem"></textarea>
+            </div>
 
             <button class="formulario__button">Enviar</button>
 
         </form>
     </section>
 
-    <footer class="footer">
-        <p class="copy">Desenvolvido por Carlos Eduardo &copy; Todos os direitos Reservados, <br> mas caso queira fazer uso pode fazer. </p>
+    <footer>
+        <div class="footer">
+            <p class="copy">Desenvolvido por Carlos Eduardo &copy; Todos os direitos Reservados, <br> mas caso queira fazer uso pode fazer. </p>
+        </div>
     </footer>
 
 </body>

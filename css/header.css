@@ -41,3 +41,26 @@ html{
 
 /*Responsivo do header*/
 
+
+@media only screen and (max-width: 900px) {
+  
+    .header__logo{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        float: none;
+    }
+
+    .menu__item{
+        padding-right: 15px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .header{
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+  }

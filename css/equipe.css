@@ -19,6 +19,7 @@
     margin: 0 1rem ;
     background: rgb(136, 175, 246);
     border-radius: 10px;
+    margin-bottom: 1rem;
 }
 
 .equipe__imagem{
@@ -46,10 +47,14 @@
   
     .equipe__box{
         text-align: center;
-        width: 40%;
+        width: 60%;
         margin-bottom: 3rem;
         background: rgb(136, 175, 246);
         border-radius: 10px;
     }
     
+    .equipe__imagem{
+        width: 150px;
+        height: 150px;
+    }
   }
